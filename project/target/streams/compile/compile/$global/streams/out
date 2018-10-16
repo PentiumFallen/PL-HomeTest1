@@ -1,0 +1,14 @@
+[warn] C:\Users\Pentium\Downloads\PL\Code\HomeTest\project\Parser.scala:6:16: Adaptation of argument list by inserting () is deprecated: this is unlikely to be what you want.
+[warn]         signature: Any.==(x$1: Any): Boolean
+[warn]   given arguments: <none>
+[warn]  after adaptation: Any.==((): Unit)
+[warn]   assert(value == (), successIndex == 1)
+[warn]                ^
+[error] C:\Users\Pentium\Downloads\PL\Code\HomeTest\project\Parser.scala:9:3: overloaded method value assert with alternatives:
+[error]   (assertion: Boolean,message: => Any)Unit <and>
+[error]   (assertion: Boolean)Unit
+[error]  cannot be applied to (Boolean, Boolean, Boolean)
+[error]   assert(
+[error]   ^
+[warn] one warning found
+[error] one error found
